@@ -143,7 +143,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 7.0rem; }
+  h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
@@ -173,7 +173,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: white;
+  color: #555;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -182,8 +182,8 @@ input[type="button"] {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #3A3A3A;
-  /*border-radius: 4px;*/
+  background-color: transparent;
+  border-radius: 4px;
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
@@ -197,7 +197,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #d09da6;
+  color: #333;
   border-color: #888;
   outline: 0; }
 .button.button-primary,
